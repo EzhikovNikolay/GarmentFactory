@@ -10,7 +10,7 @@
 
     <Grid>
         <StackPanel Margin="155,211,530,199" >
-            <Label Content="Имя" Margin="0,10,0,0" FontFamily="Times New Roman" FontSize="14" Foreground="White" Height="30" Width="100">
+            <Label Content="Имя" Margin="0,10,0,0" FontFamily="Times New Roman" FontSize="14" Height="30" Width="100">
                 <UIElement.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -20,7 +20,7 @@
                     </TransformGroup>
                 </UIElement.RenderTransform>
             </Label>
-            <Label Content="Пароль" Margin="0,0,0,5" FontFamily="Times New Roman" FontSize="14" Foreground="White" Height="30" Width="100">
+            <Label Content="Пароль" Margin="0,0,0,5" FontFamily="Times New Roman" FontSize="14" Height="30" Width="100">
                 <UIElement.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>

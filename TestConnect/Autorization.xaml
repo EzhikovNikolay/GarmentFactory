@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:TestConnect"
         mc:Ignorable="d"
         Title="Autorization" Height="600" Width="800">
+    <Viewbox>
     <Grid>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
             <TextBox x:Name="LoginBox" Width="200" Height="30"></TextBox>
@@ -34,10 +35,12 @@
                 </UIElement.RenderTransform>
             </Label>
         </StackPanel>
+            <StackPanel Width="200" Height="50" Orientation="Horizontal" Margin="291,324,291,205">
+        <Button Content="Войти" Click="Login_Click"  Width="70" Height="30"/>
+        <Button x:Name="reg" Content="Зарегистрироваться" Click="Reg_Click"  Width="120" Height="30" Margin="10,0,0,0"/>
+</StackPanel>
+            <Frame x:Name="framelog" NavigationUIVisibility="Hidden" Grid.RowSpan="2"/>
 
-        <Button Content="Войти" Click="Login_Click" Margin="300,351,420,203" Width="80" Height="30"/>
-        <Button x:Name="reg" Content="Зарегистрироваться" Click="Reg_Click" Margin="400,351,300,203" Width="100" Height="30"/>
-
-
-    </Grid>
+        </Grid>
+</Viewbox>
 </Window>
